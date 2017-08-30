@@ -12,6 +12,20 @@
 
 ### Dealing with files
 
+Name folders and files completely in lowercase with no spaces.
+
+* Many computers, particularly web servers, are case-sensitive.
+* Browsers, web servers, and programming languages do not handle spaces consistently.
+
+It's better to separate words with dashes, rather than underscores.
+
+What structure should your website have?
+
+* index.html
+* images/
+* styles/
+* scripts/
+
 ### HTML basics
 
 ### CSS basics
