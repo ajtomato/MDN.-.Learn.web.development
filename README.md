@@ -54,6 +54,45 @@ To add a link, we need to use a simple element — \<a\> — the "a" being short
 
 ### CSS basics
 
+CSS (Cascading Style Sheets) is the code you use to style your webpage.
+
+The whole structure of a basic unit in CSS is called a rule set (but often "rule" for short).
+
+You can also select multiple types of elements and apply a single rule set to all of them. Include multiple selectors separated by commas.
+
+    p,li,h1 {
+        color: red;
+    }
+
+Different types of selector
+
+* p: Selects \<p\>
+* #my-id: Selects \<p id="my-id"\> or \<a id="my-id"\>
+* .my-class: Selects \<p class="my-class"\> and \<a class="my-class"\>
+* img[src]: Selects \<img src="myimage.png"\> but not \<img\>
+* a:hover: Selects \<a\>, but only when the mouse pointer is hovering over the link.
+
+Anything in a CSS document between /* and */ is a CSS comment.
+
+Most of the HTML elements on your page can be thought of as boxes sitting on top of each other.
+
+CSS layout is based principally on the box model.
+
+* padding, the space just around the content (e.g., around paragraph text)
+* border, the solid line that sits just outside the padding
+* margin, the space around the outside of the element
+
+When you set two values on a property like *margin* or *padding*, the first value affects the element's top and bottom side, and the second value the left and right side.
+
+When you set four values on a property like *margin* or *padding*, the values set top, right, bottom, left, in that order.
+
+text-shadow
+
+* The first pixel value sets the *horizontal* offset of the shadow from the text — how far it moves across: a negative value should move it to the left.
+* The second pixel value sets the *vertical* offset of the shadow from the text — how far it moves down, in this example; a negative value should move it up.
+* The third pixel value sets the *blur radius* of the shadow — a bigger value will mean a more blurry shadow.
+* The fourth value sets the base color of the shadow.
+
 ### JavaScript basics
 
 ### Publishing your website
