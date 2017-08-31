@@ -28,6 +28,30 @@ What structure should your website have?
 
 ### HTML basics
 
+HTML contains six heading levels, \<h1\>–\<h6\> although you'll commonly only use 3–4 at most.
+
+    <h1>My main title</h1>
+    <h2>My top level heading</h2>
+    <h3>My subheading</h3>
+    <h4>My sub-subheading</h4>
+
+The most common list types are ordered and unordered lists:
+
+* Unordered lists are wrapped in a \<ul\> element.
+* Ordered lists are wrapped in an \<ol\> element.
+
+Each item inside the lists is put inside an \<li\> (list item) element.
+
+    <ul> 
+        <li>technologists</li>
+        <li>thinkers</li>
+        <li>builders</li>
+    </ul>
+
+To add a link, we need to use a simple element — \<a\> — the "a" being short for "anchor". *href* stands for *hypertext reference*.
+
+    <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+
 ### CSS basics
 
 ### JavaScript basics
