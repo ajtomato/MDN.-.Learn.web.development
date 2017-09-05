@@ -99,6 +99,8 @@ The reason we've put the *script* element near the bottom of the HTML file is th
 
 Mixing data types can lead to some strange results when performing calculations, so be careful that you are referring to your variables correctly, and getting the results you expect.
 
+The name is stored inside *localStorage*, it persists after the site is closed down, keeping the personalized message there when you next open the site!
+
 ### Publishing your website
 
 ### How the web works
