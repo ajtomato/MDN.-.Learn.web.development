@@ -95,6 +95,8 @@ text-shadow
 
 ### JavaScript basics
 
+The reason we've put the *script* element near the bottom of the HTML file is that HTML is loaded by the browser in the order it appears in the file. If the JavaScript is loaded first and it is supposed to affect the HTML below it, it might not work, as the JavaScript would be loaded before the HTML it is supposed to work on. Therefore, putting JavaScript near the bottom of the HTML page is often the best strategy.
+
 ### Publishing your website
 
 ### How the web works
